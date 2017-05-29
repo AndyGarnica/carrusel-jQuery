@@ -6,17 +6,19 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div>
-    <h1>Carrusel-slide</h1>
-  </div>
-  <section class="container">
-    <div id="slider">
-      <div><img src="img/1.jpg"></div>
-      <div><img src="img/2.jpg"></div>
-      <div><img src="img/3.jpg"></div>
-      <div><img src="img/4.jpg"></div>
-      <div><img src="img/5.jpg"></div>
+    <div>
+      <h1>Carrusel-slide</h1>
     </div>
+  <section id="contenedor-slider" class="contenedor-slider">
+    <div id="slider" class="slider">
+      <div class="slider__section"><img src="img/1.jpg"></div>
+      <div class="slider__section"><img src="img/2.jpg"></div>
+      <div class="slider__section"><img src="img/3.jpg"></div>
+      <div class="slider__section"><img src="img/4.jpg"></div>
+      <div class="slider__section"><img src="img/5.jpg"></div>
+    </div>
+    <div id="btn-prev" class="btn-prev">&#60;</div>
+    <div id="btn-next" class="btn-next">&#62;</div>
   </section>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/main.js"></script>
