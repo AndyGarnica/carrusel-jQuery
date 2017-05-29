@@ -2,22 +2,27 @@ body{
   font-family: Arial, Verdana, Tahoma;
   font size:12px;
   color:#666;
+  background: #F3E2A9;
 }
 .container{
-  width: 480px;
-  height: 187px;
+  width: 1080px;
+  height: 420px;
   padding: 20px;
   border:solid 1px #999;
   margin: auto;
-  background-color: #f1f1f1;
+  background-color: #CC2EFA;
 }
 #slider{
   position: relative;
-  width: 375px;
-  height: 170px;
+  width: 950px;
+  height: 400px;
   padding: 10px;
-  background-color: #000;
+  background-color: #6A0888;
   margin: 0 auto;
+}
+img{
+  width: 940px;
+  height: 350px;
 }
 #slider > div{
   position: absolute;
