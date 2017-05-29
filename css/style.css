@@ -4,7 +4,7 @@ body{
   color:#666;
 }
 .container{
-  width: 418px;
+  width: 480px;
   height: 187px;
   padding: 20px;
   border:solid 1px #999;
@@ -13,8 +13,8 @@ body{
 }
 #slider{
   position: relative;
-  width: 393px;
-  height: 162px;
+  width: 375px;
+  height: 170px;
   padding: 10px;
   background-color: #000;
   margin: 0 auto;
